@@ -1,0 +1,159 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Segoe UI", sans-serif;;
+    background-color:white;
+    color: black;
+}
+
+
+header {
+    background-color: #100122;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.3s ease;
+   
+}
+li a {
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.3s ease;
+   
+}
+
+nav ul li a:hover {
+    color:#180037;
+}
+
+/* Welcome section styles */
+.welcome {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.welcome h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.welcome p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.welcome img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Menu section styles */
+.menu {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.menu h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+}
+
+
+
+tr:nth-child(even) {
+    background-color: #180037;
+}
+
+
+
+
+.hh {
+    padding: 10px 20px;
+    border: none;
+    color: #fff;
+    
+    background-color: #100122;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+
+
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #ffd700;
+    color: #100122;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ffc800;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 2px solid black;
+    padding: 15px;
+}
+
+th:last-child, td:last-child {
+    width: 50px;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+tr:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+footer{
+    background-color: #100122;
+    height: 200px;
+}
+hhh{
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+}
+
+
